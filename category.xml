@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <bundle id="javax.ws.rs-api" version="2.0.0">
+      <category name="net.java.jersey.api"/>
+   </bundle>
+   <bundle id="org.glassfish.jersey.core.jersey-client" version="2.7.0">
+      <category name="net.java.jersey.core"/>
+   </bundle>
+   <bundle id="org.glassfish.jersey.core.jersey-common" version="2.7.0">
+      <category name="net.java.jersey.core"/>
+   </bundle>
+   <bundle id="org.glassfish.jersey.containers.jersey-container-servlet" version="2.7.0">
+      <category name="net.java.jersey.core"/>
+   </bundle>
+   <bundle id="org.glassfish.jersey.containers.jersey-container-servlet-core" version="2.7.0">
+      <category name="net.java.jersey.core"/>
+   </bundle>
+   <bundle id="org.glassfish.jersey.core.jersey-server" version="2.7.0">
+      <category name="net.java.jersey.core"/>
+   </bundle>
+   <category-def name="net.java.jersey.api" label="JAX-RS API">
+      <description>
+         The JAX-RS API bundles.
+      </description>
+   </category-def>
+   <category-def name="net.java.jersey.core" label="Jersey">
+      <description>
+         The Jersey bundles.
+      </description>
+   </category-def>
+</site>
