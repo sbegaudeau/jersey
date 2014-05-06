@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <bundle id="javax.ws.rs-api" version="2.0.0">
+      <category name="net.java.jersey.api"/>
+   </bundle>
+   <bundle id="org.glassfish.jersey.core.jersey-client" version="2.7.0">
+      <category name="net.java.jersey.core"/>
+   </bundle>
+   <bundle id="org.glassfish.jersey.core.jersey-common" version="2.7.0">
+      <category name="net.java.jersey.core"/>
+   </bundle>
+   <bundle id="org.glassfish.jersey.containers.jersey-container-servlet" version="2.7.0">
+      <category name="net.java.jersey.core"/>
+   </bundle>
+   <bundle id="org.glassfish.jersey.containers.jersey-container-servlet-core" version="2.7.0">
+      <category name="net.java.jersey.core"/>
+   </bundle>
+   <bundle id="org.glassfish.jersey.core.jersey-server" version="2.7.0">
+      <category name="net.java.jersey.core"/>
+   </bundle>
+   <bundle id="org.glassfish.jersey.bundles.repackaged.jersey-guava" version="2.7.0">
+      <category name="net.java.jersey.core"/>
+   </bundle>
+   <bundle id="org.glassfish.hk2.external.aopalliance-repackaged" version="2.2.0">
+      <category name="net.java.jersey.dependencies"/>
+   </bundle>
+   <bundle id="org.glassfish.hk2.external.asm-all-repackaged" version="2.2.0">
+      <category name="net.java.jersey.dependencies"/>
+   </bundle>
+   <bundle id="org.glassfish.hk2.api" version="2.2.0">
+      <category name="net.java.jersey.dependencies"/>
+   </bundle>
+   <bundle id="org.glassfish.hk2.locator" version="2.2.0">
+      <category name="net.java.jersey.dependencies"/>
+   </bundle>
+   <bundle id="org.glassfish.hk2.utils" version="2.2.0">
+      <category name="net.java.jersey.dependencies"/>
+   </bundle>
+   <bundle id="javassist" version="3.18.1.GA">
+      <category name="net.java.jersey.dependencies"/>
+   </bundle>
+   <bundle id="javax.annotation-api" version="1.2">
+      <category name="net.java.jersey.dependencies"/>
+   </bundle>
+   <bundle id="org.glassfish.hk2.external.javax.inject" version="2.2.0">
+      <category name="net.java.jersey.dependencies"/>
+   </bundle>
+   <bundle id="javax.servlet-api" version="3.0.1">
+      <category name="net.java.jersey.dependencies"/>
+   </bundle>
+   <bundle id="osgi.core" version="4.2.0.200908310645">
+      <category name="net.java.jersey.dependencies"/>
+   </bundle>
+   <bundle id="org.glassfish.hk2.osgi-resource-locator" version="1.0.1">
+      <category name="net.java.jersey.dependencies"/>
+   </bundle>
+   <bundle id="javax.validation.api" version="1.1.0.Final">
+      <category name="net.java.jersey.dependencies"/>
+   </bundle>
+   <category-def name="net.java.jersey.api" label="JAX-RS API">
+      <description>
+         The JAX-RS API bundles.
+      </description>
+   </category-def>
+   <category-def name="net.java.jersey.core" label="Jersey">
+      <description>
+         The Jersey bundles.
+      </description>
+   </category-def>
+   <category-def name="net.java.jersey.dependencies" label="Jersey Dependencies">
+      <description>
+         The dependencies used by Jersey.
+      </description>
+   </category-def>
+</site>
